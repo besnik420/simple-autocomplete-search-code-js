@@ -1,14 +1,12 @@
-var googleStrings = place.display_name;
-//var googleStrings = "2, Skovvænget, Christiansfeld, Kolding Municipality, Region of Southern Denmark, 6070, Denmark";
-//var inputString = " Skovvæget Municipalty adfas muni 6070  2";
-var inputString = request.term;
+var googleStrings = "2, Skovvænget, Christiansfeld, Kolding Municipality, Region of Southern Denmark, 6070, Denmark";
+var inputString = " Skovvæget Municipalty adfas muni 6070  2";
 var integers = [];
 var largestInt = 0;
 var uniformStrings = [];
 var splitGoogleStrings = SplitGoogleStrings();
 var splitInputString = SplintInputString();
 var integers = GetInegers();
-var uniformStrings = GetUniformStrings();
+var uniformStrings = GetUniformStrings(); // this is the return string !!
 
 function GetUniformStrings() {
     let tmpArr = [];
